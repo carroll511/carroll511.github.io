@@ -112,6 +112,16 @@ author:
     - degree: "Bachelor of Mechanical Engineering, Computer Engineering"
       institution: "Sungkyunkwan University"
       year: "2022 - Present"
+  skills:
+    - name: "Programming Languages"
+      level: "C, Python"
+  certifications:
+    - name: "Certification 1"
+      issuer: "EunBin Lee"
+      year: "2023 Spring"
+    - name: "Certification 1"
+      issuer: "EunBin Lee"
+      year: "2023 Fall"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
