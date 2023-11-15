@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,20 +108,6 @@ author:
   avatar           : "/assets/images/증명사진.jpg"
   bio              : "I am a student @ SKKU, South Korea. I love coding and mechanics!"
   location         : "Suwon, South Korea"
-  educations:
-    - degree: "Bachelor of Mechanical Engineering, Computer Engineering"
-      institution: "Sungkyunkwan University"
-      year: "2022 - Present"
-  skills:
-    - name: "Programming Languages"
-      level: "C, Python"
-  certifications:
-    - name: "Certification 1"
-      issuer: "EunBin Lee"
-      year: "2023 Spring"
-    - name: "Certification 1"
-      issuer: "EunBin Lee"
-      year: "2023 Fall"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -129,6 +115,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://www.github.com/carroll511"
+
 
 # Site Footer
 footer:
