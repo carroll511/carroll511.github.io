@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/증명사진.jpg"
   bio              : "I am a student @ SKKU, South Korea."
   location         : "Suwon, South Korea"
-  email            :
+  Education        : "SKKU, South Korea. Mechanical Engineering, Computer Engineering B.S. 2022 ~ "
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
