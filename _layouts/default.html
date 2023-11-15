@@ -20,6 +20,16 @@
 
     <div class="initial-content">
       {{ content }}
+
+      <!-- Display education information -->
+      <h2>Education</h2>
+      <ul>
+        {% for education in page.author.educations %}
+        <li>
+          <strong>{{ education.degree }}</strong> - {{education.institution}} {{{ education.year }}}
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
     {% if site.search == true %}
