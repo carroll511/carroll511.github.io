@@ -20,36 +20,6 @@
 
     <div class="initial-content">
       {{ content }}
-
-      <!-- Display education information -->
-      <h2>Education</h2>
-      <ul>
-        {% for education in page.author.educations %}
-        <li>
-          <strong>{{ education.degree }}</strong> - {{education.institution}} {{{ education.year }}}
-        </li>
-        {% endfor %}
-      </ul>
-
-      <!-- Display skills information -->
-      <h2>Skills</h2>
-      <ul>
-        {% for skill in page.author.skills %}
-          <li>
-            <strong>{{ skill.name }}</strong> - {{ skill.level }}
-          </li>
-        {% endfor %}
-      </ul>
-
-      <!-- Display certification information -->
-      <h2>Certification</h2>
-      <ul>
-        {% for certification in page.author.certifications %}
-          <li>
-            <strong>{{ certification.name }}</strong> - {{ certification.issuer }} {{{certification.year}}}
-          </li>
-        {% endfor %}
-      </ul>
     </div>
 
     {% if site.search == true %}
